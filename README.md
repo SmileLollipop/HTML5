@@ -43,6 +43,14 @@ HTML5新增元素
   there is html5 document
 </details>
 ```
+`datalist` 表示可选数据的列表，与input元素配合使用。    
+`datagrid`表示可选数据的列表，它以树形列表的形式显示。   
+`keygen`表示生成密钥     
+`output`表示不同类型的输出，比如脚本的输出    
+`source`为媒介元素（`<video>`,`<audio>`...）定义媒介资源  
+`menu`表示菜单列表。当希望列出表单控件时使用该标签  
+`dialog`表示对话框  
+
 
 
 
