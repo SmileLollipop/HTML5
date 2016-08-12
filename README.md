@@ -14,7 +14,7 @@ HTML5与HTML4在基本语法上的区别（基本语法包括：DOCTYPE声明，
  `<meta charset="utf-8">`,也可以使用之前的方式，但是不能同时混用。  
 4.HTML5为了确保兼容性，从元素标记的省略，具有boolean值的属性，引号的省略来实现兼容
 
-HTML5新增元素
+HTML5新增元素  
 1.新增结构元素：
 `section`,`article`,`aside`,`header`,`footer`,`nav`,`main`
 `figure`(使用`figcaptio`n元素为`figure`元素组添加标题)相当于`dl`，`dt`，`dd`
@@ -53,6 +53,13 @@ HTML5新增元素
 
 3.新增的input元素的类型
 `email`,`url`,`number`,`range`,`Date Pickers`
+
+HTML5新增属性
+1.表单相关的属性
+`autofocus`,`placehoder`,`form`,`required`,  
+`autocomplete`,`min`,`max`,`multiple`,`pattern`,`step`,`list`  
+`formaction`,`formenctype`,`formmethod`,`formnovalidate`,`formtarget`,`disabled`  
+....
 
 
 
