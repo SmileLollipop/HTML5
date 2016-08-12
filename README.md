@@ -51,6 +51,9 @@ HTML5新增元素
 `menu`表示菜单列表。当希望列出表单控件时使用该标签  
 `dialog`表示对话框  
 
+3.新增的input元素的类型
+`email`,`url`,`number`,`range`,`Date Pickers`
+
 
 
 
