@@ -11,7 +11,7 @@ HTML5与HTML4在基本语法上的区别（基本语法包括：DOCTYPE声明，
   <! DOCTYPE html>
   HTML5中不使用版本声明  
 3.指定字符编码  
-<meta charset="utf-8">,也可以使用之前的方式，但是不能同时混用。  
+ <meta charset="utf-8">,也可以使用之前的方式，但是不能同时混用。  
 4.HTML5为了确保兼容性，从元素标记的省略，具有boolean值的属性，引号的省略来实现兼容
 
 HTML5新增元素
