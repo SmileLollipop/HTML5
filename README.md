@@ -15,8 +15,8 @@ HTML5与HTML4在基本语法上的区别（基本语法包括：DOCTYPE声明，
 4.HTML5为了确保兼容性，从元素标记的省略，具有boolean值的属性，引号的省略来实现兼容
 
 HTML5新增元素
-新增结构元素：
-`section`,`article`,`aside`,`header`,`footer`,`nav`,
+1.新增结构元素：
+`section`,`article`,`aside`,`header`,`footer`,`nav`,`main`
 `figure`(使用`figcaptio`n元素为`figure`元素组添加标题)相当于`dl`，`dt`，`dd`
 ```html
   <figure>
@@ -24,5 +24,21 @@ HTML5新增元素
     <p>The People's Republic of China was born in 1949...</p>
   </figure>
 ```
+
+2.新增其他元素
+`video` 定义视频,`audio`定义音频，`embed` 用来插入各种多媒体
+`mark`高亮显示文字
+`progress`表示运行中的进程，可以用来显示js中耗费时间的函数
+`meter`表示度量衡
+`time`,
+`ruby`,`rt`,`rp`
+`wbr` 表示软换行，`wbr`元素与`br`元素的区别是：`br`元素是此处必须换行，而`wbr`元素意思就是浏览器窗口或父级元素的宽度
+足够宽时（没必要换行时），不进行换行，而当宽度不够时，主动在此处进行换行。`wbr`元素对字符型语言用处比较大，但对中文貌似没多大用处
+`canvas`元素表示图形，比如图表和其他图像。这个元素本身没有行为，仅提供一块画布，但把一个绘图API展现给客户端JavaScript，以使脚本能够将
+想绘制的东西绘制到这块画布上。
+`command`元素表示命令按钮，比如单选按钮，复选框或按钮
+
+
+
 
 
