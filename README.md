@@ -8,16 +8,16 @@ HTML5的目标是为了能够创建更简单的Web程序，书写出更简单的
 HTML5与HTML4在基本语法上的区别（基本语法包括：DOCTYPE声明，内容类型，字符编码的指定方式，元素标记的省略，具有布尔值的属性，引号的省略等几个方面）  
 1.内容类型（ContentType）仍为“text/html”  
 2.DOCTYPE声明  
-  <! DOCTYPE html>
+  `<!DOCTYPE html>`  
   HTML5中不使用版本声明  
 3.指定字符编码  
- <meta charset="utf-8">,也可以使用之前的方式，但是不能同时混用。  
+ `<meta charset="utf-8">`,也可以使用之前的方式，但是不能同时混用。  
 4.HTML5为了确保兼容性，从元素标记的省略，具有boolean值的属性，引号的省略来实现兼容
 
 HTML5新增元素
 新增结构元素：
-section,article,aside,header,footer,nav,
-figure(使用figcaption元素为figure元素组添加标题)相当于dl，dt，dd
+`section`,`article`,`aside`,`header`,`footer`,`nav`,
+`figure`(使用`figcaptio`n元素为`figure`元素组添加标题)相当于`dl`，`dt`，`dd`
 ```html
   <figure>
     <figcaption>PRC</figcaption>
